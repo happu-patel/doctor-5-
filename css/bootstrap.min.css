@@ -351,6 +351,19 @@ textarea.form-control {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
+  .navbar-toggler {
+    color:rgba(0,0,0, 0.65);
+  }
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
   .navbar-expand-md .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
