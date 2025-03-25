@@ -637,7 +637,15 @@
     <!-- Banner -->
   <div class="banner">
       <div class="banner-overlay"></div>
-        <img class="banner-image" src="./images/DoctorBG.webp" alt="banner" width="1200" loading="lazy">
+       <img class="banner-image" 
+     srcset="
+     ./images/DoctorBG-480.webp 480w,
+     ./images/DoctorBG-800.webp 800w,
+     ./images/DoctorBG-1200.webp 1200w"
+     sizes="(max-width: 600px) 480px, (max-width: 1024px) 800px, 1200px"
+     src="./images/DoctorBG.webp"
+     alt="banner" width="1200" loading="lazy">
+
 
       <!--<img class="banner-image" src="./images/DoctorBG.webp" alt="banner" />-->
       <div class="banner-content">
