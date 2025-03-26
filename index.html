@@ -133,8 +133,9 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     /> -->
-   
-   <link rel="preload" as="image" href="./images/DoctorBG.webp" type="image/webp">
+    <!-- Preload the banner image -->
+<link rel="preload" as="image" href="./images/DoctorBG.webp" type="image/webp">
+
 
 
   </head>
@@ -645,7 +646,7 @@
     <!-- Banner -->
   <div class="banner">
       <div class="banner-overlay"></div>
-    <img class="banner-image" src="./images/DoctorBG.webp" alt="banner" width="1200">
+    <img class="banner-image" src="./images/DoctorBG.webp" alt="banner" width="1200" fetchpriority="high">
 
 
       <!--<img class="banner-image" src="./images/DoctorBG.webp" alt="banner" />-->
